@@ -110,7 +110,7 @@ public class SampleActivity extends Activity {
                         share.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         share.putExtra(Intent.EXTRA_SUBJECT,
                             getString(R.string.app_name));
-                        share.putExtra(Intent.EXTRA_TEXT, getString(R.string.app_description) +
+                        share.putExtra(Intent.EXTRA_TEXT, getString(R.string.app_description) + "\n" +
                             "GitHub Page :  https://github.com/IkiMuhendis/LDrawer\n" +
                             "Sample App : https://play.google.com/store/apps/details?id=" +
                             getPackageName());
