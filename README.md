@@ -6,7 +6,8 @@ Android drawer icon with material design animation
 Download
 --------
 
-Download [the latest JAR][1] or grab via Maven:
+Download [the latest JAR][1] 
+<!--- or grab via Maven:
 ```xml
 <dependency>
   <groupId>com.ikimuhendis</groupId>
@@ -18,7 +19,7 @@ or Gradle:
 ```groovy
 compile 'com.ikimuhendis:ldrawer:1.0'
 ```
-
+--->
 ![alt tag](https://raw.githubusercontent.com/IkiMuhendis/LDrawer/master/images/animated.gif)
 
 ##Usage
