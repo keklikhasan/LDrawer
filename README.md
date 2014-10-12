@@ -61,10 +61,16 @@ You can set `drawerArrow` progress or change color
     drawerArrow.setProgress(1f); // back arrow position
     drawerArrow.setColor(R.color.ldrawer_color); // to set color
 
+##Example Projects
+
+  [LDrawer][3]
+  [Yemek Tarifleri][4]
+  
+
 License
 =======
 
-    Copyright 2013 Square, Inc.
+    Copyright 2014 İkimühendis
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -81,3 +87,5 @@ License
     
 [1]: https://github.com/IkiMuhendis/LDrawer
 [2]: http://developer.android.com/training/implementing-navigation/nav-drawer.html
+[3]: https://play.google.com/store/apps/details?id=com.ikimuhendis.ldrawer.sample
+[4]: https://play.google.com/store/apps/details?id=com.ikimuhendis.android.foodjob
