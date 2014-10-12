@@ -4,6 +4,6 @@
     <dimen name="ldrawer_barSize">18dp</dimen>
     <dimen name="ldrawer_topBottomBarArrowSize">11dp</dimen>
     <dimen name="ldrawer_thickness">2dp</dimen>
-    <dimen name="ldrawer_gapBetweenBars">5dp</dimen>
+    <dimen name="ldrawer_gapBetweenBars">3dp</dimen>
     <dimen name="ldrawer_middleBarArrowSize">16dp</dimen>
 </resources>
