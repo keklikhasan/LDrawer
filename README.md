@@ -19,6 +19,48 @@ or Gradle:
 compile 'com.ikimuhendis:ldrawer:1.0'
 ```
 
+![alt tag](https://raw.githubusercontent.com/IkiMuhendis/LDrawer/master/images/animated.gif)
+
+##Usage
+
+You can use like using [normal drawer][2], instead of using `android.support.v4.app.ActionBarDrawerToggle` use `com.ikimuhendis.ldrawer.ActionBarDrawerToggle`
+
+First create `drawerArrow`
+
+    drawerArrow = new DrawerArrowDrawable(this) {
+            @Override
+            public boolean isLayoutRtl() {
+                return false;
+            }
+        };
+
+Then create `ActionBarDrawerToggle`
+
+    mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
+            drawerArrow, R.string.drawer_open,
+            R.string.drawer_close) {
+
+            public void onDrawerClosed(View view) {
+                super.onDrawerClosed(view);
+                invalidateOptionsMenu();
+            }
+
+            public void onDrawerOpened(View drawerView) {
+                super.onDrawerOpened(drawerView);
+                invalidateOptionsMenu();
+            }
+        };
+
+You can stop or start animation
+
+    mDrawerToggle.setAnimateEnabled(false);
+
+You can set `drawerArrow` progress or change color
+
+    drawerArrow.setProgress(0f); // normal position
+    drawerArrow.setProgress(1f); // back arrow position
+    drawerArrow.setColor(R.color.ldrawer_color); // to set color
+
 License
 =======
 
@@ -38,3 +80,4 @@ License
     
     
 [1]: https://github.com/IkiMuhendis/LDrawer
+[2]: http://developer.android.com/training/implementing-navigation/nav-drawer.html
