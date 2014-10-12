@@ -3,11 +3,11 @@ LDrawer
 
 Android drawer icon with material design animation
 
+<!---
 Download
 --------
 
-Download [the latest JAR][1] 
-<!--- or grab via Maven:
+Download [the latest JAR][1]or grab via Maven:
 ```xml
 <dependency>
   <groupId>com.ikimuhendis</groupId>
