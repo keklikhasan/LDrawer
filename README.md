@@ -12,12 +12,12 @@ via Maven:
 <dependency>
   <groupId>com.ikimuhendis</groupId>
   <artifactId>ldrawer</artifactId>
-  <version>1.0</version>
+  <version>0.1</version>
 </dependency>
 ```
 or Gradle:
 ```groovy
-compile 'com.ikimuhendis:ldrawer:1.0'
+compile 'com.ikimuhendis:ldrawer:0.1'
 ```
 
 ![alt tag](https://raw.githubusercontent.com/IkiMuhendis/LDrawer/master/images/animated.gif)
