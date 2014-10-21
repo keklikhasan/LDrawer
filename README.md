@@ -5,6 +5,27 @@ LDrawer
 
 Android drawer icon with material design animation
 
+Note
+--------
+Basicly same as andrid 5.0 sdk, you can use appcombat
+```groovy
+compile 'com.android.support:appcompat-v7:21.0.+'
+```
+```xml
+<style name="AppTheme" parent="Theme.AppCompat.Light">
+    <item name="actionBarStyle">@style/ActionBar</item>
+</style>
+
+<style name="ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+    <item name="drawerArrowStyle">@style/AppTheme.DrawerArrowToggle</item>
+</style>
+
+<style name="AppTheme.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle">
+    <item name="color">@android:color/white</item>
+</style>
+```
+
+
 
 Download
 --------
