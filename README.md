@@ -7,7 +7,7 @@ Android drawer icon with material design animation
 
 Note
 --------
-Basicly same as andrid 5.0 sdk, you can use appcombat
+Basically same as appcompat_v7 version 21, you can use appcompat_v7
 ```groovy
 compile 'com.android.support:appcompat-v7:21.0.+'
 ```
